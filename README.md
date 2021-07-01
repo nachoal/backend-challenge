@@ -1,5 +1,12 @@
 # EverlyWell Backend Challenge
 
+### Setup 
+
+1. Install ruby version `3.0.1`
+2. Run `bundle install`
+3. Run `rails db:prepare && rails db:test:prepare`
+4. Run `touch .env && echo 'BITLY_TOKEN=13acd912b625757a252ac704d78b5b972084b848' >> ./.env`
+
 ### Overview
 
 Using Ruby on Rails, we'd like you to create a simple experts directory search tool. The tool can either be a full featured application or API only.
