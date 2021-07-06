@@ -26,6 +26,7 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'database_cleaner'
   gem 'dotenv-rails'
+  gem 'faker'
 end
 
 group :development do
