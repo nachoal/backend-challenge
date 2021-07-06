@@ -1,5 +1,5 @@
 describe HeadingScraper do
-  let(:member) { create(:member) }
+  let(:member) { create(:member, url: "https://ignacio.al/") }
   let(:vcr_record_mode) { :none }
 
   describe "#execute" do
